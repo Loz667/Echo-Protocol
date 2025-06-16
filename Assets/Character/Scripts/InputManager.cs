@@ -16,6 +16,7 @@ public class InputManager : MonoBehaviour
             playerControls = new InputSystem_Actions();
 
             playerControls.Player.Move.performed += i => movementInput = i.ReadValue<Vector2>();
+            playerControls.Player.Move.canceled += i => movementInput = Vector2.zero;
         }
 
         playerControls.Enable();
