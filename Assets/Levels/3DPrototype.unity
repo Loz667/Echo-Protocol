@@ -989,34 +989,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13990f94448cc49c08e917134d8b0479, type: 3}
---- !u!1 &309250838 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3978446217697679937, guid: 20000d9a8ec7d494faad8dd094d26e91, type: 3}
+--- !u!4 &309250852 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4358806508795691259, guid: 20000d9a8ec7d494faad8dd094d26e91, type: 3}
   m_PrefabInstance: {fileID: 9204750656115943451}
   m_PrefabAsset: {fileID: 0}
---- !u!136 &309250845
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 309250838}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.2
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1001 &311019960
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1862,6 +1839,7 @@ GameObject:
   - component: {fileID: 725336803}
   - component: {fileID: 725336801}
   - component: {fileID: 725336808}
+  - component: {fileID: 725336809}
   m_Layer: 10
   m_Name: MainCamera
   m_TagString: MainCamera
@@ -1995,6 +1973,20 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!114 &725336809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725336800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dafe3a9f522c8fd4db5d02a3a6d950b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransform: {fileID: 309250852}
+  followSpeed: 8
 --- !u!1001 &763165406
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2401,6 +2393,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1136410508}
     m_Modifications:
+    - target: {fileID: 158986, guid: d3cf9ea092c094147a2a98c2a7973a3e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 495638, guid: d3cf9ea092c094147a2a98c2a7973a3e, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -4075,6 +4071,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1136410508}
     m_Modifications:
+    - target: {fileID: 144834, guid: 4d57a31eab232457da9acbcc32af22cf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 441432, guid: 4d57a31eab232457da9acbcc32af22cf, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -6264,10 +6264,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1599710903026880593, guid: 20000d9a8ec7d494faad8dd094d26e91, type: 3}
-      propertyPath: m_ImplicitTensor
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3978446217697679937, guid: 20000d9a8ec7d494faad8dd094d26e91, type: 3}
       propertyPath: m_Name
       value: Player
@@ -6312,17 +6308,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7682502944822942337, guid: 20000d9a8ec7d494faad8dd094d26e91, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3978446217697679937, guid: 20000d9a8ec7d494faad8dd094d26e91, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 309250845}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20000d9a8ec7d494faad8dd094d26e91, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
