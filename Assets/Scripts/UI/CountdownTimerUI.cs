@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class CountdownTimerUI : MonoBehaviour
 {
-    [SerializeField] private TimeLoopManager loopManager;
+    [SerializeField] private LoopManager loopManager;
     [SerializeField] private TextMeshProUGUI timerText;
 
     void Update()

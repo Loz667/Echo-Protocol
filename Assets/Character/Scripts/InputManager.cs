@@ -47,4 +47,8 @@ public class InputManager : MonoBehaviour
         moveAmount = Mathf.Clamp01(Mathf.Abs(horizontalInput) + Mathf.Abs(verticalInput));
         animatorManager.UpdateAnimatorValues(0, moveAmount);
     }
+
+    public Vector2 GetCurrentInput() => movementInput;
+
+    public float GetMoveAmount() => moveAmount;
 }
