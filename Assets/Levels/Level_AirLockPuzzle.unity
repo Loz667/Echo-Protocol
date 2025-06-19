@@ -6394,6 +6394,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2791233387866804239, guid: fba1ff238e33c1642b0efa7e7700fb65, type: 3}
+      propertyPath: timeToVent
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2791233387866804239, guid: fba1ff238e33c1642b0efa7e7700fb65, type: 3}
       propertyPath: linkedDoor1
       value: 
       objectReference: {fileID: 1179394357}
