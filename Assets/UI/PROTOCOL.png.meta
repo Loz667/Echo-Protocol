@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: fc27619b180c428458b4694d31f1bc43
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8031005787028536354
+    second: PROTOCOL_0
+  - first:
+      213: -1194352185778070461
+    second: PROTOCOL_1
+  - first:
+      213: -9070592620091044744
+    second: PROTOCOL_2
+  - first:
+      213: -6255944566956365093
+    second: PROTOCOL_3
+  - first:
+      213: 3473082554226559934
+    second: PROTOCOL_4
+  - first:
+      213: 7335395894188290872
+    second: PROTOCOL_5
+  - first:
+      213: 6635865880137741211
+    second: PROTOCOL_6
+  - first:
+      213: 5084022174665023508
+    second: PROTOCOL_7
+  - first:
+      213: 235280443244436926
+    second: PROTOCOL_8
+  - first:
+      213: 2388479917601726045
+    second: PROTOCOL_9
+  - first:
+      213: 7191962049401510923
+    second: PROTOCOL_10
+  - first:
+      213: -3803404490988345746
+    second: PROTOCOL_11
+  - first:
+      213: 3375143855196916822
+    second: PROTOCOL_12
+  - first:
+      213: 8758150897424455228
+    second: PROTOCOL_13
+  - first:
+      213: -5757820446397593799
+    second: PROTOCOL_14
+  - first:
+      213: 639561554636954249
+    second: PROTOCOL_15
+  - first:
+      213: 2999267956150069755
+    second: PROTOCOL_16
+  - first:
+      213: 5683033185213911027
+    second: PROTOCOL_17
+  - first:
+      213: 4835485385674555442
+    second: PROTOCOL_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PROTOCOL_0
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 192
+        width: 69
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22c31f4963dd37f60800000000000000
+      internalID: 8031005787028536354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROTOCOL_1
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 29
+        width: 201
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c9cf5d30fcc6fe0800000000000000
+      internalID: -1194352185778070461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROTOCOL_2
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 222
+        width: 86
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c8131f118ce1280800000000000000
+      internalID: -9070592620091044744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROTOCOL_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 101
+        width: 92
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdae700df8b6e29a0800000000000000
+      internalID: -6255944566956365093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROTOCOL_4
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 100
+        width: 98
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebbc7409e2ed23030800000000000000
+      internalID: 3473082554226559934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROTOCOL_5
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 101
+        width: 98
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 833b3ff73bf8cc560800000000000000
+      internalID: 7335395894188290872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROTOCOL_6
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 92
+        width: 26
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b93beb21cd4571c50800000000000000
+      internalID: 6635865880137741211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROTOCOL_7
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 139
+        width: 45
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4102e174b331e8640800000000000000
+      internalID: 5084022174665023508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROTOCOL_8
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 101
+        width: 93
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd5e2a0152e34300800000000000000
+      internalID: 235280443244436926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROTOCOL_9
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 101
+        width: 96
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e1ec194d5952120800000000000000
+      internalID: 2388479917601726045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROTOCOL_10
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 100
+        width: 106
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0cdaa8116bfec360800000000000000
+      internalID: 7191962049401510923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROTOCOL_11
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 101
+        width: 97
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e66a38944c7973bc0800000000000000
+      internalID: -3803404490988345746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROTOCOL_12
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 100
+        width: 106
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ccada347be6de20800000000000000
+      internalID: 3375143855196916822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROTOCOL_13
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 100
+        width: 98
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c36d04aa6d33b8970800000000000000
+      internalID: 8758150897424455228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROTOCOL_14
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 100
+        width: 106
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9378dfb6fcc1810b0800000000000000
+      internalID: -5757820446397593799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROTOCOL_15
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 101
+        width: 82
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ad12c68dd20e800800000000000000
+      internalID: 639561554636954249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROTOCOL_16
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 9
+        width: 68
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf96988b05a8f9920800000000000000
+      internalID: 2999267956150069755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROTOCOL_17
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 36
+        width: 51
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ff8e6b62903ede40800000000000000
+      internalID: 5683033185213911027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROTOCOL_18
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 0
+        width: 77
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23089b9b6581b1340800000000000000
+      internalID: 4835485385674555442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PROTOCOL_0: 8031005787028536354
+      PROTOCOL_1: -1194352185778070461
+      PROTOCOL_10: 7191962049401510923
+      PROTOCOL_11: -3803404490988345746
+      PROTOCOL_12: 3375143855196916822
+      PROTOCOL_13: 8758150897424455228
+      PROTOCOL_14: -5757820446397593799
+      PROTOCOL_15: 639561554636954249
+      PROTOCOL_16: 2999267956150069755
+      PROTOCOL_17: 5683033185213911027
+      PROTOCOL_18: 4835485385674555442
+      PROTOCOL_2: -9070592620091044744
+      PROTOCOL_3: -6255944566956365093
+      PROTOCOL_4: 3473082554226559934
+      PROTOCOL_5: 7335395894188290872
+      PROTOCOL_6: 6635865880137741211
+      PROTOCOL_7: 5084022174665023508
+      PROTOCOL_8: 235280443244436926
+      PROTOCOL_9: 2388479917601726045
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
